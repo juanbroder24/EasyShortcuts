@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Radial Menu Customization</title>
+  <style>
+    body { width: 300px; padding: 10px; }
+    label, input { display: block; margin-bottom: 5px; }
+    input { width: 100%; }
+    button { margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <h2>Customize Radial Menu</h2>
+  <form id="customLinksForm">
+    <h3>Custom Link 1</h3>
+    <label for="link1Url">URL:</label>
+    <input type="url" id="link1Url" required>
+    <label for="link1Text">Text:</label>
+    <input type="text" id="link1Text" required>
+
+    <h3>Custom Link 2</h3>
+    <label for="link2Url">URL:</label>
+    <input type="url" id="link2Url" required>
+    <label for="link2Text">Text:</label>
+    <input type="text" id="link2Text" required>
+
+    <button type="submit">Save</button>
+  </form>
+  <script src="popup.js"></script>
+</body>
+</html>
